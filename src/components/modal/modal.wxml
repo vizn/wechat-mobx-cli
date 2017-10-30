@@ -1,0 +1,16 @@
+<template name="modal">
+    <view class="modalMask" wx:if="{{show}}">
+        <view class="modalContent">
+            <view class="modalTitle">
+                您已成功领取优惠券{{couponName}}一张，可在该店铺微信扫码支付时使用
+            </view>
+              <view class="modalBtnGroup" wx:if="{{isShowBtnDetail}}">
+                <view class="seeCouponDetail" bindtap="toCouponDetail">查看优惠详情</view>
+                <view class="ok" bindtap="clearModal">确定</view>
+            </view> 
+            <view class="modalBtnOkOnly" wx:else  bindtap="clearModal">
+                确定
+            </view>
+        </view>
+    </view>
+</template>

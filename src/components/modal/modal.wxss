@@ -1,0 +1,63 @@
+.modalMask{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,.4);
+}
+.modalContent{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#fff;
+    border-radius:20rpx;
+}
+.modalTitle{
+    width:650rpx;
+    border-top-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+    line-height:45rpx;
+    padding:60rpx 30rpx;
+    box-sizing:border-box;
+    border-bottom:1rpx solid #e1e1e1;
+    font-size:30rpx;
+    color:#333;
+}
+.modalTitle.phone{
+   text-align:center;
+}
+.modalBtn{
+    text-align:center;
+    line-height:94rpx;
+    border-bottom-left-radius: 20rpx;
+    border-bottom-right-radius: 20rpx;
+    font-size:32rpx;
+    color:#333;
+}
+.modalBtnGroup{
+    height:94rpx;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center ;
+    font-size:32rpx;
+}
+.modalBtnGroup>view{
+    text-align:center;
+    line-height:94rpx;
+    width:50%;
+}
+.modalBtnGroup .seeCouponDetail{
+    border-bottom-left-radius: 20rpx;
+}
+.modalBtnGroup .ok{
+    border-left:1px solid #e1e1e1;
+     border-bottom-right-radius: 20rpx;
+}
+.modalBtnOkOnly{
+    font-size:32rpx;
+    text-align:center;
+    line-height:94rpx;
+}

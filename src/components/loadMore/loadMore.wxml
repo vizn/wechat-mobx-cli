@@ -1,0 +1,13 @@
+<!--loadMore.wxml-->
+<template name="loadMore">
+<view>
+  <view class="loading" wx:if="{{isShowLoading}}" style="text-align:center;font-size:26rpx;color:#999999;height:102rpx;line-height:102rpx">加载更多
+    <text class="loading-line"></text>
+    <text class="loading-line"></text>
+    <text class="loading-line"></text>  
+  </view>  
+  <!--bottom  -->
+   <view class="bottom" wx:if="{{isShowBottom}}"><text class="line"></text>没有更多了<text class="line"></text></view> 
+</view>
+</template>
+
