@@ -1,0 +1,10 @@
+<!--pages/noNetwork/noNetwork.wxml-->
+<view class="noNetwork" >
+  <view class="location">
+    <image src="../../image/noNetwork.png"></image>
+    <view class="location-des">
+      <text>你的手机网络好像不太稳定~</text>
+    </view>
+    <button bindtap="reload">重新加载</button>
+  </view>
+</view>
